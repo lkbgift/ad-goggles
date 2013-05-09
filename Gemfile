@@ -3,7 +3,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 
-gem 'pg'
+group :production, :staging do
+  gem "pg"
+end
+
+group :development, :test do
+  gem "sqlite3"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -16,7 +22,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
   gem 'zurb-foundation', '~> 4.0.0'
-  
+  gem 'jquery-ui-rails'
 end
 
 gem 'jquery-rails'

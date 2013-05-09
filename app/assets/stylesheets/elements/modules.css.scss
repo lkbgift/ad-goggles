@@ -7,6 +7,21 @@
 .primary-back{
   background: #61b3de !important;
 }
-.primary-mute-back{
-  background: #99c5dc !important;
+.top-bar-section ul li > a.primary-mute-back{
+  background: #99c5dc;
+}
+.top-bar-section li a:not(.button).secondary-back{
+  background:#ccc ;
+}
+.border-bottom-left{
+  border-radius: 0px 0px 0px 50px;
+}
+
+// SHAME
+
+.blahblah{
+  display: block;
+  float: right;
+  list-style: none;
+  text-align: center;
 }

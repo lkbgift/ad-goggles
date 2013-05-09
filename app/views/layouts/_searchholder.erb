@@ -1,39 +1,73 @@
+<div class="overover">
+
 <nav class="top-bar">
 
   <section class="top-bar-section">
     <!-- Left Nav Section -->
+
     <ul class="right">
+      <li class="divider"></li>
       <li>
+        <a href="" id="toggle-search" class="secondary-back">
+          <span class="up">&uarr;</span>
+          <span class="down">&darr;</span>
+        </a>
       </li>
     </ul>
-    <ul class="right">
-      <li class="has-form primary-back">
+    <ul class="right gogglize">
+      <li id="search-bar-place" class="has-dropdown border-bottom-left has-form primary-back">
         <form class="">
           <div class="row collapse search sansoverflow ">
             <div class="small-8 columns ">
               <input type="text" placeholder="See what others see" class="border-left-round">
             </div>
             <div class="small-4 columns">
-              <a href="#" class="secondary button border-right-round">Search</a>
+              <a href="#" class="secondary button border-right-round">Gogglize</a>
             </div>
           </div>
         </form>
       </li>
-      <li class="divider hide-for-small"></li>
-      <li class="has-dropdown"><a href="#" class="primary-mute-back">Persona</a>
-
-        <ul class="dropdown">
-          <li><a href="#">Dropdown Level 1b</a></li>
-          <li><a href="#">Dropdown Level 1c</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Dropdown Level 1d</a></li>
-          <li><a href="#">Dropdown Level 1e</a></li>
-          <li><a href="#">Dropdown Level 1f</a></li>
-          <li class="divider"></li>
-          <li><a href="#">See all &rarr;</a></li>
-        </ul>
-      </li>
     </ul>
+    
 
   </section>
 </nav>
+<ul class="dropdown gogglize blahblah" style="">
+          <li class="divider"></li>
+          <hr>
+          <li>
+             <div style="width:200px; " class="row">
+             <div class="large-6 column gender text-center">
+               
+             <%= image_tag("boy.png") %>
+             </div>
+              <div class="large-6 column gender text-center">
+                
+              <%= image_tag("girl.png") %>
+              </div>
+             </div> 
+             <div style="width:200px; " class="row">
+              <div class="large-6 column gender text-center">
+                
+              <%= image_tag("man.png") %>
+              </div>
+              <div class="large-6 column gender text-center select">
+                
+              <%= image_tag("woman.png") %>
+              </div>
+             </div>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a href="#"><strong>Location</strong> <br>New York, NY, USA</a>
+            <a data-reveal-id="myLocation" href="#" style="font-size:11px;">
+            <div class="column" style="max-width:200px;">
+              <%= image_tag("map-small.gif") %>
+            </div> 
+              Click to change</a>
+          </li>
+          <li class="divider"></li>
+          <li><a href="#">See all Personas &rarr;</a></li>
+        </ul>
+
+        </div>

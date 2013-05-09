@@ -17,3 +17,17 @@
 //= require foundation
 
 $(document).foundation();
+
+$('#toggle-search').click(function () {
+    $('.gogglize').toggle("hide");
+    return false;
+  });
+
+var $gender = $('.gender');
+$gender.click(function(){
+  $gender.removeClass('select');
+  $(this).addClass('select');
+});
+
+$('.closebox').click(function(){
+});
