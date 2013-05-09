@@ -1,0 +1,29 @@
+.top-bar{
+  input{
+    line-height: 2em;
+    font-size: 0.875em;
+    height: 2em;
+    padding: 0 18px;
+    position: relative;
+    top: 20px !important;
+  }
+  li{
+    a{ 
+      font-family: Georgia;
+    }
+    .top-bar-section{
+      a{
+      }
+    }
+  }
+  .search{
+    input{
+        overflow:hidden;
+        font-size:1.875em;
+    }
+    a{
+      font-size:1.875em;
+      top: 20px !important;
+    }
+  }
+}
