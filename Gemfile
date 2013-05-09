@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-ruby "2.0.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.beta1'
+gem 'rails'
 
 group :production, :staging do
   gem "pg"
@@ -22,7 +21,6 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
   gem 'zurb-foundation', '~> 4.0.0'
-  gem 'jquery-ui-rails'
 end
 
 gem 'jquery-rails'
